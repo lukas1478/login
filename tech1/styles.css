@@ -1,0 +1,85 @@
+body{
+  background-image: linear-gradient(135deg,#cbecd8 10%, #a38604 100%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: sans-serif;
+}
+  .box-form {
+    background-color: rgb(103, 161, 121);
+    width: 80%;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: flex;
+   flex: 1 1 100%;
+   align-items: stretch;
+   justify-content: space-between; 
+   box-shadow: 0 0 20px 6px #38e6ac85;
+  }
+.box-form div{
+  height: auto;
+}
+.box-form .left {
+  background-image: url("TECHPRENEUR\ \ logo.png");
+  color: black;
+  text-shadow: 2px 2px 3px rgb(83, 92, 3);
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  opacity: .4;
+}
+.box-form .left .overlay {
+  padding: 30px;
+  width: 100%; 
+  height: 100%;
+  background: #9cf1cead;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.box-form .left .overlay h1 {
+  font-size: 7vmax;
+  line-height: 1;
+  font-weight: 600;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+}
+.img1 {
+  cursor: pointer;
+  box-shadow: 2px 2px 3px rgb(255, 139, 139);
+  margin-right: auto;
+  background-color: black;
+  border-radius: 5px;
+}
+.nav1 li {
+  display: inline-block;
+  padding: 10px;  
+}
+a {
+  font-family: 'Times New Roman';
+  font-size: 16px;
+  font-weight: 900%;
+  text-decoration: none;
+  transition: all 0.3 ease;
+  text-shadow: 2px 2px 3px rgb(46, 40, 40);
+}
+a:hover{
+  color: rgb(99, 126, 0);
+  font-family: serif;
+}
+button {
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  background-color: rgb(187, 233, 173);
+}
+button:hover{
+  color: white;
+  opacity: 0.5;
+}
